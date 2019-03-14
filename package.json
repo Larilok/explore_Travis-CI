@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Trying to create a work env",
   "scripts": {
-    "lint": "npx eslint date.js",
+    "lint": "eslint date.js",
     "test": "node test.js",
     "build": "echo 'building locally'",
     "now-build": "echo 'building on production' ",
@@ -11,5 +11,9 @@
     "start": "node date.js"
   },
   "author": "Michael Markelov",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "now": "^14.1.0"
+  }
 }
+
