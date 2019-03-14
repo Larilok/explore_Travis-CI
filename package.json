@@ -1,0 +1,10 @@
+{
+  "name": "explore_Travis",
+  "version": "1.0.0",
+  "description": "Simple tavis-CI check for JSHint (Code Linting)",
+  "scripts": {
+    "test": "npx eslint hello.js"
+  },
+  "author": "Michael Markelov",
+  "license": "ISC"
+}
