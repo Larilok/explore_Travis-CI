@@ -1,4 +1,2 @@
 'use strict';
-module.exports = (req, res) => {
-  res.end(`The date is ${Date.now()}`);
-};
+console.log(`The date is ${Date.now()}`);

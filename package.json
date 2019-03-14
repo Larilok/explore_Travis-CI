@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "Trying to create a work env",
   "scripts": {
-    "lint": "npx eslint hello.js",
+    "lint": "npx eslint date.js",
     "test": "node test.js",
     "build": "echo 'building locally'",
     "now-build": "echo 'building on production' ",
-    "deploy": "now alias $(echo $(now deploy)) explore_Travis-$BRANCH && echo $BRANCH",
-    "start": "node hello.js"
+    "deploy": "npx now alias $(echo $(now deploy)) explore_Travis-$BRANCH && echo $BRANCH",
+    "start": "node date.js"
   },
   "author": "Michael Markelov",
   "license": "ISC"
