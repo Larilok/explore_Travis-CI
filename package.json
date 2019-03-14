@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Trying to create a work env",
   "scripts": {
-    "lint": "eslint date.js",
+    "lint": "npx eslint date.js",
     "test": "node test.js",
     "build": "echo 'building locally'",
     "now-build": "echo 'building on production' ",
@@ -16,4 +16,3 @@
     "now": "^14.1.0"
   }
 }
-
