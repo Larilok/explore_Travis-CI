@@ -1,9 +1,14 @@
 {
   "name": "explore_Travis",
   "version": "1.0.0",
-  "description": "Simple tavis-CI check for JSHint (Code Linting)",
+  "description": "Trying to create a work env",
   "scripts": {
-    "test": "npx eslint hello.js"
+    "lint": "npx eslint hello.js",
+    "test": "node test.js",
+    "build": "echo 'building locally'",
+    "now-build": "echo 'building on production' ",
+    "deploy": "now alias $(echo $(now deploy)) explore_Travis-$BRANCH && echo $BRANCH",
+    "start": "node hello.js"
   },
   "author": "Michael Markelov",
   "license": "ISC"
